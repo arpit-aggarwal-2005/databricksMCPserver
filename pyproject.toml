@@ -11,3 +11,5 @@ dependencies = [
     "databricks-vectorsearch>=0.40.0",
     "python-dotenv>=1.0.0",
 ]
+[project.scripts]
+databricks-server = "databricks_server:main"
