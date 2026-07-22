@@ -1,0 +1,13 @@
+[project]
+name = "mcp-server"
+version = "0.1.0"
+description = "MCP servers for various integrations including Databricks and Weather"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.28.1",
+    "databricks-sdk>=0.32.0",
+    "databricks-vectorsearch>=0.40.0",
+    "python-dotenv>=1.0.0",
+]
