@@ -2,7 +2,7 @@
 name = "mcp-server"
 version = "0.1.0"
 description = "MCP servers for various integrations including Databricks and Weather"
-readme = "README.md"
+readme = "DATABRICKS_README.md"
 requires-python = ">=3.13"
 dependencies = [
     "httpx>=0.28.1",
